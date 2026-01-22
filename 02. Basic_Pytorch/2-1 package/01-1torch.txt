@@ -1,0 +1,18 @@
+torch
+메인 네임스페이스.
+
+torch.autograd
+--자동 미분을 위한 함수 패키지.
+
+torch.nn
+신경망 구축을 위한 데이터구조, 레이어 정의.
+RNN, LSTM레이어, ReLU 활성화 함수, MSELoss등 손실함수..
+
+torch.optim
+확률적 경사 하강법(Stochastic Gradient Descent, SGD) 중심의 파라미터 최적화 알고리즘
+
+torch.utils.data
+SGD의 반복연산 실행하는 미니 배치용 유틸리티 함수
+
+torch.onnx
+ONNX(Open Neural Network Exchange) 포멧의 모델을 exprot할때 사용
